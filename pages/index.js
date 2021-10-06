@@ -1,4 +1,5 @@
 import {useState, useRef} from "react";
+import Head from "next/head"
 import Link from "next/link";
 export default function Index() {
     const [scale,setScale] = useState(1.5);
@@ -25,6 +26,9 @@ export default function Index() {
     };
   return (
       <>
+          <Head>
+              <title>主页</title>
+          </Head>
           <div
               id="wrapper"
               ref={xRef}

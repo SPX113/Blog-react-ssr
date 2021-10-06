@@ -42,17 +42,6 @@ export default function BlogItem(props){
                         <button className="w3-btn" onClick={detail} id="myBtn"><b>进入文章</b> </button>
                     </p>
                     <p className="w3-clear"></p>
-                    <div className="w3-row w3-padding-bottom" id="demo1" style={{display:"none"}}>
-                        <hr/>
-                            <div className="w3-col l2 m3">
-                                <img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg"
-                                     style={{width:"90px"}}/>
-                            </div>
-                            <div className="w3-col l10 m9">
-                                <h4>George <span className="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
-                                <p>Great blog post! Following</p>
-                            </div>
-                    </div>
             </div>
         </div>
     )

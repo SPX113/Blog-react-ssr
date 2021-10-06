@@ -7,16 +7,20 @@ export default function Inspiration(){
                 </div>
                 <div className="w3-row-padding w3-white">
                     <div className="w3-col s6">
-                        <p><img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg" alt="Jeans"
-                                style={{width:"100%"}}/></p>
-                        <p><img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg" alt="Jeans"
-                                style={{width:"100%"}}/></p>
+                        <p>
+                            <img src="../about.jpg" alt="Jeans" style={{width:"100%"}}/>
+                        </p>
+                        <p>
+                            <img src="../about.jpg" alt="Jeans" style={{width:"100%"}}/>
+                        </p>
                     </div>
                     <div className="w3-col s6">
-                        <p><img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg"
-                                alt="Men in Hats" style={{width:"100%"}} className="w3-grayscale"/></p>
-                        <p><img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg" alt="Jeans"
-                                style={{width:"100%"}}/></p>
+                        <p>
+                            <img src="../about.jpg" alt="Men in Hats" style={{width:"100%"}} className="w3-grayscale"/>
+                        </p>
+                        <p>
+                            <img src="../about.jpg" alt="Jeans" style={{width:"100%"}}/>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <div className="w3-white w3-margin">
-            <img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg" alt="Jane"
+            <img src="../about.jpg" alt="Jane"
                  style={{width:"100%"}} className="w3-grayscale"/>
             <div className="w3-container w3-black">
                 <h4>My Name</h4>

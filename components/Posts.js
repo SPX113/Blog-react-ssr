@@ -13,7 +13,7 @@ export default function Posts(props){
                     props.list.map(item => {
                         return(
                             <li className="w3-padding-16" key={item.id} onClick={() => detail(item.article)}>
-                                <img src="https://germini.info/wp-content/uploads/2016/12/JavaScript-if-else.jpg" alt="Image"
+                                <img src={item.photo} alt="Image"
                                      className="w3-left w3-margin-right" style={{width:"50px"}}/>
                                 <span className="w3-large">{item.title}</span>
                                 <br/>
